@@ -5,26 +5,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Shantell+Sans&display=swap" rel="stylesheet">
 
+    <link rel="stylesheet" href="./src/css/style.css">
+    
     <title>Document</title>
 </head>
 <body>
-    <div class="align">
-        <h1 id="title-align" >Dê vida ao circulo, <br> aperte o botão <span>Iniciar</span></h1>
+    <div>
+        <h1 id="title-align">
+            Dê vida ao circulo, <br> brinque com os botões <br><span>Iniciar cor <br></span> e<br> <span>Movimentar</span><br>
+            do outro lado do circulo
+        </h1>
         <div class="btn-align">
-            <button id="startBtn" class="btn-style" >Iniciar</button>
-            <button id="stopBtn" class="btn-style" >Parar</button>
+            <button id="startBtn" class="btn-style" >Iniciar cor</button>
+            <button id="stopBtn" class="btn-style" >Parar cor</button>            
+            <button id="scaleChange" class="btn-style">Movimentar</button>
+            <button id="scaleStopBtn" class="btn-style">Parar movimento</button>
             <button id="removeShadow" class="btn-style" >Remover/Adicionar sombreamento</button>
         </div>
-        <div class="circle01" class="circle"></div>
-        <div class="circle02" class="circle"></div>
-        <div class="circle03" class="circle"></div>
-        <div class="circle04" class="circle"></div>
-        <div class="circle05" class="circle"></div>    
-        <div class="circle06" class="circle"></div>            
+    </div>
+    <div class="align scaleTransform">       
+        <div class="stripe circle" ></div> 
+        <h2>Paleta de cores</h2>
+        <div class="circle01 circle" ></div>
+        <div class="circle02 circle" ></div>
+        <div class="circle03 circle" ></div>
+        <div class="circle04 circle" ></div>
+        <div class="circle05 circle" ></div>    
+        <div class="circle06 circle" ></div>            
     </div>
 
-    <script type="text/javascript" src="./script.js" ></script>
+    <script type="text/javascript" src="./src/js/script.js" ></script>
 </body>
 </html>
