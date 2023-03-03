@@ -170,20 +170,31 @@ h2{
     font-weight: bold;
 }
 
+.responsive-title-align{
+    display: none;
+}
+
 @media(max-width:1080px){  
 
     .btn-align{
         position: relative;
         top: 5px;
         left: 0px;
-        flex-direction: row;
-        align-items:flex-start;
-        justify-content:space-between;        
+        display: grid;
+        grid-template-columns: 2fr 1fr; 
+        grid-template-rows: 1fr 1fr;                       
     }   
 
+    .btn-style{
+        width: 120px;
+        height: 120px;
+    }
+
     .align{        
-        height: 80vh;
-        margin-top: 10%;
+        height: 80vh;        
+        align-items: center;
+        justify-content: center;
+        margin: auto;
     }
 
     h2{
@@ -192,12 +203,7 @@ h2{
     }
 
     .stripe{
-        height: 90%;
-        width: 2%;
-        position: absolute;
-        left: 5px;    
-        background-color: #ffffff;
-        box-shadow: inset 0px 0px 150px #000000;
+        display: none;
     }
 
     .developed-by{
@@ -209,8 +215,8 @@ h2{
     }    
 
     .circle01{    
-        height: 80%;
-        width: 80%;
+        height: 50%;
+        width: 90%;
         position: absolute;
         border-radius: 100%;
         background-color: #ffffff;
@@ -219,8 +225,8 @@ h2{
     
     
     .circle02{    
-        height: 55%;
-        width: 55%;
+        height: 40%;
+        width: 75%;
         position: absolute;
         border-radius: 100%;
         background-color: #ffffff;
@@ -229,8 +235,8 @@ h2{
     }
     
     .circle03{    
-        height: 35%;
-        width: 35%;
+        height: 25%;
+        width: 50%;
         position: absolute;
         border-radius: 100%;
         background-color: #ffffff;
@@ -239,8 +245,8 @@ h2{
     }
     
     .circle04{    
-        height: 14%;
-        width: 14;
+        height: 15%;
+        width: 30%;
         position: absolute;
         border-radius: 100%;
         background-color: #ffffff;
@@ -248,8 +254,8 @@ h2{
     }
     
     .circle05{    
-        height: 12%;
-        width: 12%;
+        height: 8%;
+        width: 14%;
         position: absolute;
         border-radius: 100%;
         background-color: #ffffff;
@@ -258,7 +264,7 @@ h2{
     
     .circle06{    
         height: 2%;
-        width: 2%;
+        width: 3%;
         position: absolute;
         border-radius: 100%;
         background-color: #ffffff;
