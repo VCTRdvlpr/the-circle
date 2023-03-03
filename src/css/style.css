@@ -183,6 +183,7 @@ h2{
 
     .align{        
         height: 80vh;
+        margin-top: 10%;
     }
 
     h2{
@@ -204,10 +205,63 @@ h2{
     }       
 
     #title-align{
-        width: 20%; 
-        position: absolute;    
-        right: 10px;
-        top: 90px;
-        text-align: center;
+        display: none;
     }    
+
+    .circle01{    
+        height: 80%;
+        width: 80%;
+        position: absolute;
+        border-radius: 100%;
+        background-color: #ffffff;
+        box-shadow: inset 0px 0px 150px #000000;
+    }
+    
+    
+    .circle02{    
+        height: 55%;
+        width: 55%;
+        position: absolute;
+        border-radius: 100%;
+        background-color: #ffffff;
+        box-shadow: inset 0px 0px 80px #000000;
+        
+    }
+    
+    .circle03{    
+        height: 35%;
+        width: 35%;
+        position: absolute;
+        border-radius: 100%;
+        background-color: #ffffff;
+        box-shadow: inset 0px 0px 60px #000000;
+        
+    }
+    
+    .circle04{    
+        height: 14%;
+        width: 14;
+        position: absolute;
+        border-radius: 100%;
+        background-color: #ffffff;
+        box-shadow: inset 0px 0px 40px #000000;    
+    }
+    
+    .circle05{    
+        height: 12%;
+        width: 12%;
+        position: absolute;
+        border-radius: 100%;
+        background-color: #ffffff;
+        box-shadow: inset 0px 0px 30px #000000;    
+    }
+    
+    .circle06{    
+        height: 2%;
+        width: 2%;
+        position: absolute;
+        border-radius: 100%;
+        background-color: #ffffff;
+        box-shadow: inset 0px 0px 30px #000000;    
+    }
 }
