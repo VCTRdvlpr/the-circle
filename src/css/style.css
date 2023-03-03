@@ -109,14 +109,20 @@ button{
     background-color: #000000;
     border: 4px solid #ffff;
     color: #ffff;
+    transition: 0.25s ease-in-out;
 }
 
 .btn-style:hover{
     scale: 1.1;
+    background-color: #ffff;
+    color: #000000;
+    transition: 0.35s ease-in-out;
 }
 
 .btn-style:active{
     scale: 1;
+    background-color: #000000;
+    color: #ffff;    
 }
 
 #removeShadow{    
@@ -146,4 +152,62 @@ h2{
     writing-mode:vertical-rl;
     text-orientation: upright;
     letter-spacing: 35px;
+}
+
+.developed-by{
+    display: flex;
+    gap: 5px;
+    position: absolute;
+    bottom: 50px;
+    left: 150px;
+}
+
+.developed-by span{
+    padding: 2px;
+    background-color: #ffff;
+    color: #1b1a1a;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+@media(max-width:1080px){  
+
+    .btn-align{
+        position: relative;
+        top: 5px;
+        left: 0px;
+        flex-direction: row;
+        align-items:flex-start;
+        justify-content:space-between;        
+    }   
+
+    .align{        
+        height: 80vh;
+    }
+
+    h2{
+        display: none;
+       
+    }
+
+    .stripe{
+        height: 90%;
+        width: 2%;
+        position: absolute;
+        left: 5px;    
+        background-color: #ffffff;
+        box-shadow: inset 0px 0px 150px #000000;
+    }
+
+    .developed-by{
+        display: none;
+    }       
+
+    #title-align{
+        width: 20%; 
+        position: absolute;    
+        right: 10px;
+        top: 90px;
+        text-align: center;
+    }    
 }
