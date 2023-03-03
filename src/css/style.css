@@ -182,7 +182,8 @@ h2{
         left: 0px;
         display: grid;
         grid-template-columns: 2fr 1fr; 
-        grid-template-rows: 1fr 1fr;                       
+        grid-template-rows: 1fr 1fr;       
+        margin:0 10% 10% 10%;                
     }   
 
     .btn-style{
@@ -191,10 +192,10 @@ h2{
     }
 
     .align{        
-        height: 80vh;        
-        align-items: center;
-        justify-content: center;
-        margin: auto;
+        height: 55vh;        
+        align-items:center;
+        justify-content: center;        
+        margin-top: -15px;        
     }
 
     h2{
@@ -269,5 +270,18 @@ h2{
         border-radius: 100%;
         background-color: #ffffff;
         box-shadow: inset 0px 0px 30px #000000;    
+    }
+
+    .btn-style:hover{
+        scale: 1.1;
+        background-color: #000000;
+        color: #ffff;
+        transition: 0.35s ease-in-out;
+    }
+
+    .btn-style:active{
+        scale: 1;
+        background-color: #ffff;
+        color: #000000;    
     }
 }
