@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #1b1a1a;
+}
+
+.align{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;       
+    background-color: #1b1a1a;
+}
+
+.circle01{    
+    height: 80%;
+    width: 40%;
+    position: absolute;
+    border-radius: 100%;
+    background-color: #ffffff;
+    box-shadow: inset 0px 0px 150px #000000;
+}
+
+
+.circle02{    
+    height: 55%;
+    width: 27%;
+    position: absolute;
+    border-radius: 100%;
+    background-color: #ffffff;
+    box-shadow: inset 0px 0px 80px #000000;
+    
+}
+
+.circle03{    
+    height: 35%;
+    width: 17%;
+    position: absolute;
+    border-radius: 100%;
+    background-color: #ffffff;
+    box-shadow: inset 0px 0px 60px #000000;
+    
+}
+
+.circle04{    
+    height: 14%;
+    width: 7;
+    position: absolute;
+    border-radius: 100%;
+    background-color: #ffffff;
+    box-shadow: inset 0px 0px 40px #000000;    
+}
+
+.circle05{    
+    height: 12%;
+    width: 6%;
+    position: absolute;
+    border-radius: 100%;
+    background-color: #ffffff;
+    box-shadow: inset 0px 0px 30px #000000;    
+}
+
+.circle06{    
+    height: 2%;
+    width: 1%;
+    position: absolute;
+    border-radius: 100%;
+    background-color: #ffffff;
+    box-shadow: inset 0px 0px 30px #000000;    
+}
+
+
+.btn-align{
+    position: absolute;    
+    z-index: 1;
+    top: 15px;
+    display: flex;       
+    background-color: #1b1a1a;
+}
+
+.btn-style{    
+    width: 130px;
+    height: 40px;
+    margin: 0 20px;
+    font-size: 1em;
+    padding: 2px 0;    
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.btn-style:hover{
+    scale: 1.1;
+}
+
+.btn-style:active{
+    scale: 1;
+}
+
+#removeShadow{    
+    display: none;
+    width: 170px;
+}
+
+#title-align{
+    position: absolute;
+    color: red;
+    right: 20px;
+    top: 20px;
+}
